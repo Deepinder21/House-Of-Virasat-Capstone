@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Shalimar');
+
+.Header{
+    height:3cm;
+    position: relative;
+    top:20%;
+    margin-top:10px;
+    background-color:rgba(176, 171, 171, 0.547); 
+}
+.hfooter{
+    height:2cm;
+    position: relative;
+    bottom:10%;
+    margin-top:350px;
+    background-color:rgba(176, 171, 171, 0.547) ; 
+}
+.lfooter{
+    height:2cm;
+    position: relative;
+    bottom:10%;
+    margin-top:20px;
+    background-color:rgba(176, 171, 171, 0.547) ; 
+}
+.logo{
+    height:3cm;
+    width:4cm;
+    margin-left:70px;
+    float:left;
+    margin-right:5px;
+    top:1px;
+    border-radius:80%;
+}
+nav {
+    justify-content: space-around;
+  }
+a {
+    color: black ;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: extra xx-large;
+    float:right ;
+    margin-top: 50px;
+    margin-right:40px;
+    font-size:medium;
+    margin-left: 120px;
+  } 
+h1{
+    font-family:shalimar;
+    text-align: center;
+    color: black;
+    font-size:500%;
+    margin-right: 150px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    
+}
+h2{
+    font-family:shalimar;
+    text-align: center;
+    color: black;
+    font-size:500%;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+
+}
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:70px;
+    float:left;
+    font-size: 110%;
+    margin-right:40px;
+    color:black ;
+    margin-top: 10px;
+
+  }
+.image{
+    margin-top: 10px;
+    margin-left: 30px;
+    float: right;
+    margin-right: 150px;
+    max-height: 400px;
+    margin-bottom: 5px;
+}
+img{
+        width: 450px;
+        height: 300px;
+        margin-bottom: 80px;
+}
+.material-icons{
+   margin-left:40px;
+   width: 30px;
+   height: 20px;
+   color:black;
+   margin-top:20px;
+}
+.fa-linkedin-square{
+    margin-left:50px;
+    width: 30px;
+    height: 20px;
+    color:black;
+    font-family:'Roboto Slab';  
+}
+p{
+    color: black ;
+    text-align: right; 
+    padding: 0%;
+    margin: 0;
+    clear: both;
+}
+.login{
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+  form {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  label {
+    margin-bottom: 10px;
+  }
+  input[type="text"], input[type="password"] {
+    width: 30%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    font-size: 150%;
+    background-color: white;
+    color:black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  button{
+    width: 80%;
+    height: 30px;
+    font-size: 150%;
+    background-color: white;
+    color:black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 200;
+    margin-bottom: 5px;
+  }
+ h1,form{
+    background-image: url('back\ image.jpg');
+ }
