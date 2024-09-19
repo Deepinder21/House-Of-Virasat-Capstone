@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House of Virasat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to House of Virasat</h1>
+    </header>
+    
+    <div class="buttons">
+      <button onclick="navigateToLogin()">Login</button>
+      <button onclick="navigateToCreateAccount()">Create Account</button>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript functions to navigate between pages
+    function navigateToLogin() {
+        window.location.href = "login.html"; // Redirects to login page
+    }
+
+    function navigateToCreateAccount() {
+      window.location.href = "create-account.html"; // Redirects to account creation page
+    }
+  </script>
+</body>
+</html>
